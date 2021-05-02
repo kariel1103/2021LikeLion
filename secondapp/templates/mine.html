@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>KANG'S LIFE</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta writer="강연우">
+        <style type="text/css">
+            *{margin:0px; padding:0px;}
+            body {background-color: rgb(247, 89, 102); overflow-x: hidden;}
+            h1 {background-color: rgb(240, 240, 120); padding: 20px; padding-bottom: 30px; margin-top: 70px; font-style: italic; text-align: center; font-size: 50px;}  
+            #middle {position: relative; top: 50px; left: 100px;}
+            .introduction {position:absolute; top: 10px; left: 350px; margin: 30px; width:600px; height:360px; background: rgb(240, 240, 120); border-radius: 10px;}
+            .introduction::after {border-top:15px solid rgb(240, 240, 120); border-left: 15px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; content:""; position:absolute; top:10px; left:-15px;}
+            pre {line-height: 20px; font-family: 'Gamja Flower', san-serif; font-weight: normal; font-size: 15pt;}
+            ol {float: bottom; font-family: 'Gamja Flower', san-serif; font-size: 20pt; position: relative; top: 30px; line-height: 20px;}
+            ol li {position: relative; top: 10px; float: bottom; font-size: 15pt;}
+            #final {position: relative; top: 100px; left: 10px; padding-bottom: 10px; font-size: 10pt;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><img src="static/images/flower.png" width="70" height="70">KANG'S LIFE&nbsp;<img src="static/images/flower.png" width="70" height="70"></h1>
+            
+        </header>
+        <article><br>
+            <section id="middle">
+                <img src="static/images/selfi.jpg" alt="selfi">
+                <div class="introduction">
+                    <pre> 
+    안녕하세요. KANG'S LIFE에 오신 것을 환영합니다!
+    간단히 소개를 하자면, 저는 <strong>강연우</strong>라고 합니다.
+    제 이름의 뜻은 물 흐를 '연'에 도울 '우'자를 써서 <em>"물 흐르듯이 남을 도와라"</em>는
+    큰 의미를 갖고 있습니다. 현재 숙명여자대학교 수학과에 재학하고 있으며,
+    it공학과를 복전 중입니다.
+    [KANG'S TMI]
+    이름: 강연우
+    학력: 숙명여대 <a href="#mathematics">수학과</a> 재학 중
+    생년월일: 2000년 11월 3일
+    가족: <a href="#family">부모님, 언니</a>
+    반려견: <a href="#taepung">강태풍</a>
+    취미: 잠자기, 좋은 팝송 찾기, 영화 or 드라마 보기
+    좋아하는 음식: <a href="#food">떡볶이, 닭 요리</a>
+    좋아하는 영화: 어바웃타임, 디즈니 영화
+    좋아하는 가수: One Direction, Taylor Swift, Why Don't we, New Hope Club
+    가고 싶은 곳: 루브르 박물관, 옐로스톤 국립공원, 사막 등
+
+                    </pre>
+                </div>
+                <ol><br><br>[KANG'S PHOTO]<br><br>
+                    <li><a id="mathematics"></a>숙명여대 수학과 동기들과의 추억</li>
+                    <br><img src="static/images/math.jpg">
+                    <li><a id="family"></a>가족 사진</li>
+                    <br><img src="static/images/family.jpg"> <img src="static/images/sister.jpg"> <img src="static/images/home.jpg">
+                    <li><a id="taepung"></a>반려견 태풍이와의 추억</li>
+                    <br><img src="static/images/taepung.jpg"> <img src="static/images/taepung2.jpg"> <video controls autoplay width="300" height="530" src="static/video/tae.mp4">재생 불가</video>
+                    <li><a id="food"></a>즐겨 먹던 음식 사진</li>
+                    <br><img src="static/images/food1.jpg"> <img src="static/images/food2.jpg"> <img src="static/images/food4.jpg">
+                </ol>
+
+            </section>
+        </article>
+        <footer id="final">
+            Copyright ⓒ 2021 Yeonwoo. All rights reserved. <br>
+            <em>Contatct webmaster for more information. 000-9133-2379</em>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </footer>
+    </body>
+</html>
